@@ -1,0 +1,11 @@
+def process_command(command):
+    if command == "What's the weather today?":
+        return "Fetching weather information."
+    elif command == "Set a reminder for 3 PM.":
+        return "Reminder set for 3 PM."
+    else:
+        return "Command not recognized."
+
+# Test commands
+print(process_command("What's the weather today?"))
+print(process_command("Set a reminder for 3 PM."))
